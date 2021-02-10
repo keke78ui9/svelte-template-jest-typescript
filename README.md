@@ -1,10 +1,13 @@
-Create this template for Svelte custom element
+Create this template for Svelte custom element and jest with typescript
 + Custom Element
 + SCSS
 + Typescripts
-
++ Jest
+    + debug Jest
+    + Jest Unit Test
+    + Jest Code Coverage
 
 ```bash
-npx degit keke78ui9/svelte-template-custom-element svelte-app
+npx degit keke78ui9/svelte-template-jest-typescript svelte-app
 cd svelte-app
 ```
