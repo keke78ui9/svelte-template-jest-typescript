@@ -1,4 +1,5 @@
 <svelte:options tag="my-app" />
+
 <script lang="ts">
 	export let name: string;
 </script>
