@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\src\\Question.svelte.spec.js"
+            "program": "${workspaceFolder}\\src\\App.spec.ts"
         }
     ]
 }
