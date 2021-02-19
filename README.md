@@ -6,6 +6,7 @@ Create this template for Svelte custom element and jest with typescript
     + debug Jest
     + Jest Unit Test
     + Jest Code Coverage
+    + Support Typescript for Jest
 
 ```bash
 npx degit keke78ui9/svelte-template-jest-typescript svelte-app
