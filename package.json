@@ -43,5 +43,8 @@
     "ts-jest": "^26.5.0",
     "tslib": "^2.0.0",
     "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.0"
   }
 }

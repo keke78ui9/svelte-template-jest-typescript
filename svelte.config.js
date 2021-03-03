@@ -4,4 +4,7 @@ module.exports = {
   preprocess: sveltePreprocess({
      
   }),
+  compilerOptions: {
+    customElement: true
+  }
 };

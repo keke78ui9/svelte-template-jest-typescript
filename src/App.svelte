@@ -2,11 +2,15 @@
 
 <script lang="ts">
 	export let name: string;
+	let url:string;
+	import {AppHelper} from './AppHelper';
+
 </script>
 
 <main>
-	<h1 data-testid="name">Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Hello {name}!</h1>
+	<p>Visit the <a href={AppHelper.SvelteUrl}>Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<p>Learn <a href={AppHelper.TypescriptUrl}>Typescript</a>.</p>
 </main>
 
 <style type="text/scss">
